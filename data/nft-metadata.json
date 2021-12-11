@@ -1,0 +1,9 @@
+{
+    "attributes" : [ {
+      "trait_type" : "Reward Program",
+      "value" : "ParaSwap PSP Launch"
+    } ],
+    "description" : "A gift for those who joined early and used their Crucibles to bootstrap liquidity for ParaSwap.",
+    "image" : "https://github.com/hypermilla/nft-gift-mint/raw/main/data/ParaswapGem/gem.glb",
+    "name" : "The Crucible's ParaSwap Gem"
+}
