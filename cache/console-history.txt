@@ -1,0 +1,12 @@
+myContract.estimateGas.mintNFT(process.env.PUBLIC_KEY, process.env.TOKEN_URI)
+myContract.callStatic.mintNFT(process.env.PUBLIC_KEY, process.env.TOKEN_URI)
+const myContract = await hre.ethers.getContractAt("CrucibleRewardProgramGiftNFT", process.env.CONTRACT_ADDRESS)
+const mynftContract = new ethers.Contract(contractFactory, contractFactory.interface, ethers.signers[0])
+const nftContract = new ethers.Contract(contractFactory, contractFactory.interface, ethers.signers[0])
+const nftContract = new ethers.Contract(contractFactory, contractFactory.interface, accounts[0])
+const myContract = await contractFactory.attach(process.env.CONTRACT_ADDRESS)
+contractFactory
+const contractFactory = ethers.getContractFactory("CrucibleRewardProgramGiftNFT")
+const contractnft  = ethers.getContract("CrucibleRewardProgramGiftNFT")
+const contract = ethers.getContract
+const contract = ethers.getContract(process.env.CONTRACT_ADDRESS)
